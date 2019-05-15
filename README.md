@@ -10,7 +10,7 @@ cmsenv
 git clone needed script files
 ```
 git clone https://github.com/sihyunjeon/SampleProduction_FastSim.git -b 2017__CMSSW_9_4_12__LHE_to_AODSIM
-cd SampleProduction_FastSim/2017__CMSSW_9_4_12__LHE_to_AODSIM/
+cd SampleProduction_FastSim/2017__CMSSW_9_4_12__LHE_to_AODSIM__CRABjobs/
 ```
 
 # CRAB scripts for WR/N analysis
