@@ -46,7 +46,8 @@ while (WRMASS <= WRMASSEND):
 
     if (WRSTART > WRMASS) or (WRMASS > WREND): continue
 
-    print DIRNAME +"\troot://cms-xrdr.sdfarm.kr:1094///xrd/store/user/shjeon/2017Run_WR_Dilep/PrivateLHE/"+DIRNAME+".lhe"
+    print DIRNAME +"\troot://cluster142.knu.ac.kr//store/user/shjeon/2017Run_WR_Dilep/PrivateLHE/"+DIRNAME+".lhe"
+#    print DIRNAME +"\troot://cms-xrdr.sdfarm.kr:1094///xrd/store/user/shjeon/2017Run_WR_Dilep/PrivateLHE/"+DIRNAME+".lhe"
 #    print DIRNAME +"\t/pnfs/knu.ac.kr/data/cms/store/user/shjeon/2016Run_WR_Dilep/2016/"+DIRNAME+".root"
 
   WRMASS = WRMASS + 200

@@ -76,7 +76,7 @@ process.mix.input.nbPileupEvents.averageNumber = cms.double(50.000000)
 process.mix.bunchspace = cms.int32(25)
 process.mix.minBunch = cms.int32(-12)
 process.mix.maxBunch = cms.int32(3)
-process.mix.input.fileNames = cms.untracked.vstring(['root://cms-xrdr.sdfarm.kr:1094///xrd/store/user/shjeon/2017Run_WR_Dilep/RelValMinBiasFS/RelValMinBiasFS.root'])
+process.mix.input.fileNames = cms.untracked.vstring(['root://cluster142.knu.ac.kr//store/user/shjeon/2017Run_WR_Dilep/RelValMinBiasFS/RelValMinBiasFS.root'])
 process.genstepfilter.triggerConditions=cms.vstring("generation_step")
 process.mix.digitizers = cms.PSet(process.theDigitizersValid)
 from Configuration.AlCa.GlobalTag import GlobalTag
